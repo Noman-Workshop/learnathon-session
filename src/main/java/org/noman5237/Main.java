@@ -116,8 +116,8 @@ public class Main {
 		ducks.forEach(Duck::quack);
 		
 		HonkBehaviour doubleHonk = () -> System.out.println("Honk Honk");
-		// how to set a honk behaviour for our DuckGooseAdapter
-		imposterDuck.setQuackBehaviour(doubleHonk);
+		// TODO: how to set a honk behaviour for our DuckGooseAdapter
+//		imposterDuck.setQuackBehaviour(doubleHonk);
 		
 		
 		// TODO: make all the ducks mute
@@ -126,5 +126,8 @@ public class Main {
 		System.out.println("After making all ducks mute");
 		
 		ducks.forEach(Duck::quack);
+		
+		// TODO: duck quack, display
+		// on event trigger, do something
 	}
 }
